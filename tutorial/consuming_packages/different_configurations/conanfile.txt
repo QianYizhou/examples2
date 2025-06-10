@@ -2,7 +2,7 @@
 zlib/1.2.11
 
 [tool_requires]
-cmake/3.22.6
+# cmake/3.22.6
 
 [generators]
 CMakeDeps
