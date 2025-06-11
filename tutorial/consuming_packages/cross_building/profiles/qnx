@@ -1,0 +1,26 @@
+[settings]
+os=Neutrino
+os.version=7.0
+arch=x86_64
+compiler=qcc
+compiler.cppstd=14
+compiler.libcxx=gpp
+compiler.version=5.4
+build_type=Release
+
+# [options]
+# [build_requires]
+
+[buildenv]
+CC=qcc -Vgcc_ntox86_64 -lang-c
+CXX=q++ -Vgcc_ntox86_64 -lang-c++
+
+# PATH=[$QNX_BASE/host/linux/x86_64/usr/bin,$QNX_CONFIGURATION/bin,$QNX_BASE/jre/bin]
+# LD_LIBRARY_PATH=[$QNX_BASE/host/linux/x86_64/usr/lib]
+# CC=$QNX_BASE/host/linux/x86_64/usr/bin/qcc
+# CXX=$QNX_BASE/host/linux/x86_64/usr/bin/q++
+# CMAKE_C_COMPILER=$QNX_BASE/host/linux/x86_64/usr/bin/qcc
+# CMAKE_CXX_COMPILER=$QNX_BASE/host/linux/x86_64/usr/bin/q++
+# QNX_HOST=$QNX_BASE/host/linux/x86_64
+# QNX_TARGET=$QNX_BASE/target/qnx7
+# MAKEFLAGS=-I$QNX_BASE/target/qnx7/usr/include

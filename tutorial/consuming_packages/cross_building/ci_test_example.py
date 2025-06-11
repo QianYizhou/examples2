@@ -7,7 +7,7 @@ from conan import conan_version
 
 if platform.system() == "Linux":
 
-    run("conan install . --build missing -pr:b=default -pr:h=./profiles/raspberry")
+    run("conan install . --build missing -pr:b=default -pr:h=./profiles/qnx")
 
     generators_folder = "Release/generators"
 
